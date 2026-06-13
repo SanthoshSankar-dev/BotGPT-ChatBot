@@ -1,0 +1,110 @@
+# 🤖 BotGPT — The Future of Conversational AI
+
+
+
+[![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)](https://reactjs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Google Gemini](https://img.shields.io/badge/Gemini_AI-2.5_Flash-4285F4?logo=google&logoColor=white)](https://ai.google.dev/)
+[![Vite](https://img.shields.io/badge/Vite-7.0-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
+
+**BotGPT** is a state-of-the-art, lightning-fast AI chatbot built with the modern web stack. Leveraging the power of Google's **Gemini 2.5 Flash** model, BotGPT provides intelligent, context-aware responses in a stunning, fully responsive interface.
+
+---
+
+## ✨ Features
+
+- ⚡ **Lightning Fast Responses**: Powered by Google Gemini 2.5 Flash SDK.
+- 🌓 **Dynamic Theme Switching**: Seamlessly toggle between deep dark and crisp light modes.
+- 📱 **Fully Responsive**: Optimized for every device—from mobile phones to large desktops.
+- 🎨 **Premium UI/UX**: Designed with glassmorphism, smooth transitions, and high-quality typography.
+- 📝 **Markdown Excellence**: Full support for code snippets, lists, and rich text formatting within chats.
+- 💡 **Smart Suggestions**: Quick-start prompt cards to jumpstart your conversation.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework**: [React 19](https://react.dev/)
+- **Bundler**: [Vite 7](https://vitejs.dev/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Typography**: [Inter](https://fonts.google.com/specimen/Inter) & [Fira Code](https://fonts.google.com/specimen/Fira+Code)
+- **AI Engine**: [Google Generative AI (Gemini)](https://ai.google.dev/)
+- **Icons**: [React Icons](https://react-icons.github.io/react-icons/)
+- **Spinners**: [React Spinners](https://www.davidhu.me/react-spinners/)
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to get your own instance of BotGPT up and running.
+
+### 1. Prerequisites
+- [Node.js](https://nodejs.org/) (v20 or higher)
+- A Google AI Studio [API Key](https://aistudio.google.com/)
+
+### 2. Installation
+Clone the repository and install dependencies:
+```bash
+git clone https://github.com/yourusername/botgpt.git
+cd botgpt
+npm install
+```
+
+### 3. Environment Setup
+Create a `.env` file in the root directory and add your API key:
+```env
+VITE_GEMINI_API_KEY="YOUR_ACTUAL_API_KEY_HERE"
+```
+
+### 4. Run Locally
+```bash
+npm run dev
+```
+
+---
+64: 
+65: ## 🚀 Deployment
+66: 
+67: ### Deploying to Vercel
+68: 
+69: 1. Push your code to a GitHub repository.
+70: 2. Create a new project on [Vercel](https://vercel.com).
+71: 3. Import your GitHub repository.
+72: 4. In the **Configure Project** step, go to **Environment Variables**.
+73: 5. Add `VITE_GEMINI_API_KEY` as the key and your actual API key as the value.
+74: 6. Click **Deploy**.
+75: 
+76: > **Note**: This project requires Node.js version 22+ (due to Vite 7). The `package.json` is configured to enforce this on Vercel.
+77: 
+78: ---
+
+## 📸 Screenshots
+
+| Feature | Dark Mode | Light Mode |
+| :--- | :--- | :--- |
+| **Hero Page** | *Coming Soon* | *Coming Soon* |
+| **Chat Interface** | *Coming Soon* | *Coming Soon* |
+
+---
+
+## 🤝 Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+---
+
+<p align="center">
+  Developed with ❤️ by <a href="https://github.com/AdithyaTB">Adithya T B</a>
+</p>
