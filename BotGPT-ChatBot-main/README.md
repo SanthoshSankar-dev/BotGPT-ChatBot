@@ -1,110 +1,136 @@
 # 🤖 BotGPT — The Future of Conversational AI
 
+**✨ A modern AI chatbot built with React, Vite, Tailwind CSS, and Google Gemini**
 
+🔗 Repository:
+https://github.com/SanthoshSankar-dev/BotGPT-ChatBot
 
-[![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)](https://reactjs.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-[![Google Gemini](https://img.shields.io/badge/Gemini_AI-2.5_Flash-4285F4?logo=google&logoColor=white)](https://ai.google.dev/)
-[![Vite](https://img.shields.io/badge/Vite-7.0-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
+🌐 Live Demo:
+https://bot-gpt-chat-bot.vercel.app/
 
-**BotGPT** is a state-of-the-art, lightning-fast AI chatbot built with the modern web stack. Leveraging the power of Google's **Gemini 2.5 Flash** model, BotGPT provides intelligent, context-aware responses in a stunning, fully responsive interface.
+BotGPT is a modern AI chatbot built with the latest web technologies. Powered by Google Gemini, it provides intelligent and responsive conversations in a clean user interface.
 
 ---
 
 ## ✨ Features
 
-- ⚡ **Lightning Fast Responses**: Powered by Google Gemini 2.5 Flash SDK.
-- 🌓 **Dynamic Theme Switching**: Seamlessly toggle between deep dark and crisp light modes.
-- 📱 **Fully Responsive**: Optimized for every device—from mobile phones to large desktops.
-- 🎨 **Premium UI/UX**: Designed with glassmorphism, smooth transitions, and high-quality typography.
-- 📝 **Markdown Excellence**: Full support for code snippets, lists, and rich text formatting within chats.
-- 💡 **Smart Suggestions**: Quick-start prompt cards to jumpstart your conversation.
+* ⚡ Fast AI Responses
+* 🌓 Dark & Light Theme Support
+* 📱 Fully Responsive Design
+* 🎨 Modern UI Experience
+* 📝 Rich Text & Chat Formatting
+* 💡 Smart Prompt Suggestions
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Framework**: [React 19](https://react.dev/)
-- **Bundler**: [Vite 7](https://vitejs.dev/)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
-- **Typography**: [Inter](https://fonts.google.com/specimen/Inter) & [Fira Code](https://fonts.google.com/specimen/Fira+Code)
-- **AI Engine**: [Google Generative AI (Gemini)](https://ai.google.dev/)
-- **Icons**: [React Icons](https://react-icons.github.io/react-icons/)
-- **Spinners**: [React Spinners](https://www.davidhu.me/react-spinners/)
+### Frontend
+
+* React 19
+* Vite 7
+* Tailwind CSS
+
+### AI Integration
+
+* Google Gemini API
+
+### Tools
+
+* npm
+* Git & GitHub
+* VS Code
 
 ---
 
 ## 🚀 Getting Started
 
-Follow these steps to get your own instance of BotGPT up and running.
+### Prerequisites
 
-### 1. Prerequisites
-- [Node.js](https://nodejs.org/) (v20 or higher)
-- A Google AI Studio [API Key](https://aistudio.google.com/)
+* Node.js (v20 or higher)
+* Google AI Studio API Key
 
-### 2. Installation
-Clone the repository and install dependencies:
+### Installation
+
 ```bash
-git clone https://github.com/yourusername/botgpt.git
-cd botgpt
+git clone https://github.com/SanthoshSankar-dev/BotGPT-ChatBot.git
+cd BotGPT-ChatBot
 npm install
 ```
 
-### 3. Environment Setup
-Create a `.env` file in the root directory and add your API key:
+### Environment Setup
+
+Create `.env`
+
 ```env
-VITE_GEMINI_API_KEY="YOUR_ACTUAL_API_KEY_HERE"
+VITE_GEMINI_API_KEY=YOUR_API_KEY
 ```
 
-### 4. Run Locally
+### Run Project
+
 ```bash
 npm run dev
 ```
 
+Open:
+
+```text
+http://localhost:5173
+```
+
 ---
-64: 
-65: ## 🚀 Deployment
-66: 
-67: ### Deploying to Vercel
-68: 
-69: 1. Push your code to a GitHub repository.
-70: 2. Create a new project on [Vercel](https://vercel.com).
-71: 3. Import your GitHub repository.
-72: 4. In the **Configure Project** step, go to **Environment Variables**.
-73: 5. Add `VITE_GEMINI_API_KEY` as the key and your actual API key as the value.
-74: 6. Click **Deploy**.
-75: 
-76: > **Note**: This project requires Node.js version 22+ (due to Vite 7). The `package.json` is configured to enforce this on Vercel.
-77: 
-78: ---
+
+## 🚀 Deployment
+
+Deploy using Vercel.
+
+Environment Variable:
+
+```env
+VITE_GEMINI_API_KEY=YOUR_API_KEY
+```
+
+Live Deployment:
+
+https://bot-gpt-chat-bot.vercel.app/
+
+---
 
 ## 📸 Screenshots
 
-| Feature | Dark Mode | Light Mode |
-| :--- | :--- | :--- |
-| **Hero Page** | *Coming Soon* | *Coming Soon* |
-| **Chat Interface** | *Coming Soon* | *Coming Soon* |
+Add:
+
+* Home Page
+* Chat Interface
+* Dark Mode
+* Light Mode
 
 ---
 
-## 🤝 Contributing
+## 🧪 Learning Outcomes
 
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+* React Components
+* API Integration
+* Responsive UI
+* Deployment Workflow
 
 ---
 
-## 📄 License
+## 👨‍💻 Maintained By
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Santhosh
+
+Academic submission and portfolio project.
+
+Project maintained and customized for academic and portfolio purposes with permission from original contributor.
+
+GitHub:
+https://github.com/SanthoshSankar-dev
 
 ---
 
-<p align="center">
-  Developed with ❤️ by <a href="https://github.com/AdithyaTB">Adithya T B</a>
-</p>
+## 📌 Notes
+
+Do not expose API keys publicly.
+
+This repository is maintained for learning and portfolio purposes.
